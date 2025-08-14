@@ -1,0 +1,110 @@
+body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, #a445b2, #d41872);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .card {
+        background-color: #1c1c27;
+        width: 300px;
+        border-radius: 15px;
+        overflow: hidden;
+        color: white;
+        text-align: center;
+        box-shadow: 0px 4px 20px rgba(0,0,0,0.3);
+        padding-bottom: 20px;
+    }
+
+    .badge {
+        position: absolute;
+        background-color: #ffcc00;
+        color: black;
+        padding: 3px 10px;
+        font-size: 12px;
+        font-weight: bold;
+        border-radius: 5px;
+        top: 15px;
+        left: 15px;
+    }
+
+    .profile-img {
+        margin-top: 20px;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 3px solid #9c27b0;
+        object-fit: cover;
+    }
+
+    h2 {
+        margin: 10px 0 5px;
+    }
+
+    .location {
+        font-size: 12px;
+        color: #bbb;
+    }
+
+    .description {
+        font-size: 13px;
+        color: #aaa;
+        padding: 0 20px;
+        margin: 10px 0;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin: 15px 0;
+    }
+
+    .btn {
+        padding: 8px 15px;
+        border-radius: 5px;
+        border: 1px solid #9c27b0;
+        font-size: 14px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .btn.message {
+        background-color: #d41872;
+        border: none;
+        color: white;
+    }
+
+    .btn.following {
+        background-color: transparent;
+        color: #9c27b0;
+    }
+
+    .skills {
+        margin-top: 15px;
+        padding: 0 20px;
+        text-align: left;
+    }
+
+    .skills-title {
+        font-size: 12px;
+        margin-bottom: 8px;
+        color: #bbb;
+    }
+
+    .skills-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .skill {
+        background-color: #2d2f38;
+        padding: 5px 8px;
+        font-size: 12px;
+        border-radius: 4px;
+    }
